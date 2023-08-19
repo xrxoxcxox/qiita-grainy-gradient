@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  width: 100dvw;
+  height: 100dvh;
+  background: url("./background.svg") no-repeat center / cover;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+  gap: 2rem;
+  background-color: rgb(255 255 255 / 0.1);
+  padding: 8rem 8rem 9rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(16px);
+  border: 1px solid rgb(255 255 255 / 0.4);
+}
+
+.main {
+  font-size: 8rem;
+}
+
+.sub {
+  font-size: 3rem;
+}
